@@ -1,11 +1,9 @@
 ###############################
-#####   News Classifier   #####
-####     for Turkish       ####
+##### Language Prediction #####
 ###  tanersezerr@gmail.com  ###
 ###############################
 import os
 import sys
-import argparse
 # import pyfasttext
 from pyfasttext import FastText
 
@@ -19,14 +17,12 @@ model = FastText('Tr_or_Eng.bin')
 # Convert file to single line
 # so the model could process whole file as a whole
 
-
 def single_line(text):
     for line in text:
         line.replace('\n', '')
     return line
 
 # Get prediction for the given file
-
 
 def predict(text):
     girdi = single_line(text)
