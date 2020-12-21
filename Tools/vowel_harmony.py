@@ -1,3 +1,10 @@
+#####################################
+# Vowel Harmony Check               #
+# Taner Sezer                       #
+# tanersezer@gmail.com              #
+# 2020                              #
+#####################################
+
 import os
 import sys
 import string
