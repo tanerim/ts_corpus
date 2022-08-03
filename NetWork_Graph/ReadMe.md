@@ -5,18 +5,18 @@ python NetWork_Graph/word2vec_to_graph_stemmed.py bilgisayar 1 1_point_25_millio
 
 7 arguments should be declined
 
-The keyword
+1- The keyword
 
-Coverage of the network [1,2]
+2- Coverage of the network [1,2]
 
-The model
+3- The model
 
-Graph Physics [atlas, barnes, repulsion, hrepulsion]
+4- Graph Physics [atlas, barnes, repulsion, hrepulsion]
 
-Set Edge Type [curvedCW, curvedCCW, cubicBezier, diagonalCross, straightCross, dynamic, continuous, discrete]
+5- Set Edge Type [curvedCW, curvedCCW, cubicBezier, diagonalCross, straightCross, dynamic, continuous, discrete]
 
-Set Edge Color
+6- Set Edge Color
 
-Arrow Direction [to, from]
+7- Arrow Direction [to, from]
 
 
